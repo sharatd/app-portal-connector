@@ -1,0 +1,7 @@
+{
+  "jobName": "hello-world",
+  "parameters": {
+    "env": "dev",
+    "retry": 2
+  }
+}

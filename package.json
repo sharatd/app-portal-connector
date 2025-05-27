@@ -1,0 +1,28 @@
+{
+  "name": "app-portal-connector",
+  "version": "1.0.0",
+  "description": "This is a lightweight connector for submitting jobs to a mock application portal (like Target’s TAP system). It supports structured config files and runtime types like shell and Docker.",
+  "main": "connector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharatd/app-portal-connector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sharatd/app-portal-connector/issues"
+  },
+  "homepage": "https://github.com/sharatd/app-portal-connector#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}

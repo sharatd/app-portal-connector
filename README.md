@@ -1,2 +1,9 @@
-# app-portal-connector
-I created this repo to learn more about connectors and create a connector that connects to a mock app portal.
+# App Connector (Personal Project)
+
+This is a lightweight connector for submitting jobs to a mock application portal (like Target’s TAP system). It supports structured config files and runtime types like shell and Docker.
+
+## Run Connector
+
+```bash
+node connector.js configs/hello-world.json
+```
